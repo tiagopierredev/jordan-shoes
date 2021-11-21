@@ -1,0 +1,31 @@
+#home {
+  background-image: url('/assets/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 11440.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home > div {
+  background-color: rgba(24, 24, 24, 0.9);
+  height: 37.8rem;
+  display: flex;
+  align-items: center;
+}
+
+#home > div div h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--grey-200);
+  margin-bottom: 1.9rem;
+}
+
+#home > div div p {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--grey-200);
+}
+
+@media (max-width: 768px) {
+  #home {
+    background-image: url('/assets/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1768.svg');
+  }
+}

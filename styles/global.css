@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --grey-900: #181818;
+  --grey-600: #474747;
+  --grey-400: #ebe9ea;
+  --grey-200: #f6f6f6;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: var(--grey-200);
+  font-size: 1.8rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: min(124rem, 90%);
+  margin: 0 auto;
+}
